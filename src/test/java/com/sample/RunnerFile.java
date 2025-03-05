@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
         glue="com.stepDef",
         dryRun=false,
         monochrome=true,
-        plugin={"pretty","json:path/output.json"}
+        plugin={"pretty","json:target/cucumber-reports/CucumberTestReport.json"}
        
       
         )
