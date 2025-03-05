@@ -9,8 +9,7 @@ import io.cucumber.testng.CucumberOptions;
         glue="com.stepDef",
         dryRun=false,
         monochrome=true,
-        tags="@wrong or @login",
-        plugin={"pretty","json:path/to/json_repot.json"}
+        plugin={"pretty","json:path/to/json_report.json"}
        
       
         )
